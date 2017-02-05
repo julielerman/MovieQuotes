@@ -10,8 +10,8 @@ namespace MovieList {
     private static void ShowMovieList() {
       Console.WriteLine();
       Console.WriteLine("Your movie choices:");
-      Console.WriteLine("1: Princess Bride");
-      Console.WriteLine("2: Brazil");
+      Console.WriteLine("1: Princess Bride (1987)");
+      Console.WriteLine("2: Deadpool (2016)");
   
       ShowMovieMenu();
     }
