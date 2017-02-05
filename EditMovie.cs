@@ -1,4 +1,6 @@
-      var movie = _context.Movies.Find(id);
+     
+     //find it
+
       if (movie == null) {
         Console.WriteLine("Not Found");
       }
@@ -10,5 +12,7 @@
         Console.Write($"Year) {movie.ReleaseYear} (Enter for no change): ");
         var year = Console.ReadLine();
         if (!string.IsNullOrEmpty(year)) movie.ReleaseYear = year;
-        _context.SaveChanges();
+       
+       //save it
+
       }
